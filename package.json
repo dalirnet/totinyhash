@@ -1,0 +1,44 @@
+{
+    "name": "tinyhash",
+    "version": "1.0.0",
+    "description": "tiny hash generator",
+    "keywords": [
+        "tiny",
+        "hash",
+        "tinyhash"
+    ],
+    "homepage": "https://github.com/dalirnet/tinyhash#readme",
+    "bugs": {
+        "url": "https://github.com/dalirnet/tinyhash/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dalirnet/tinyhash.git"
+    },
+    "license": "MIT",
+    "author": "AmirRezaDalir",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --config webpack.js --env development",
+        "build": "webpack --config webpack.js --env production",
+        "test": "jest"
+    },
+    "dependencies": {
+        "jest": "^26.6.3"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/plugin-proposal-class-properties": "^7.12.1",
+        "@babel/preset-env": "^7.12.11",
+        "@webpack-cli/serve": "^1.2.0",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-add-module-exports": "^1.0.4",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "cross-env": "^7.0.3",
+        "terser-webpack-plugin": "^5.0.3",
+        "webpack": "^5.11.0",
+        "webpack-cli": "4",
+        "yargs": "^16.2.0"
+    }
+}
