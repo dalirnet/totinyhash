@@ -10,15 +10,15 @@ tiny hash generator
 
 ```bash
 # npm
-npm install tinyhash
+npm install totinyhash
 # yarn
-yarn add tinyhash
+yarn add totinyhash
 ```
 
 ### How to use
 
 ```javascript
-const hashed = tinyhash("tinyhash")
+const hashed = totinyhash("tinyhash")
 // hashed equal "tRXXS"
 ```
 
@@ -28,7 +28,7 @@ const hashed = tinyhash("tinyhash")
     -   default: null
 
 ```javascript
-const hashed = tinyhash("tinyhash", ["z", "s", "x", "w", "y", "r", "v", "t", "u", "q"])
+const hashed = totinyhash("tinyhash", ["z", "s", "x", "w", "y", "r", "v", "t", "u", "q"])
 // hashed equal "tWZZT"
 ```
 

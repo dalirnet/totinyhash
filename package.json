@@ -1,5 +1,5 @@
 {
-    "name": "tinyhash",
+    "name": "totinyhash",
     "version": "1.0.0",
     "description": "tiny hash generator",
     "keywords": [
@@ -7,13 +7,13 @@
         "hash",
         "tinyhash"
     ],
-    "homepage": "https://github.com/dalirnet/tinyhash#readme",
+    "homepage": "https://github.com/dalirnet/totinyhash#readme",
     "bugs": {
-        "url": "https://github.com/dalirnet/tinyhash/issues"
+        "url": "https://github.com/dalirnet/totinyhash/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/dalirnet/tinyhash.git"
+        "url": "git+https://github.com/dalirnet/totinyhash.git"
     },
     "license": "MIT",
     "author": "AmirRezaDalir",
