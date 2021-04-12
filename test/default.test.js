@@ -1,17 +1,17 @@
-const tinyhash = require('../index')
+const totinyhash = require('../lib/index')
 
 test('null to equal false', () => {
-    expect(tinyhash(null)).toBeFalsy()
+    expect(totinyhash(null)).toBeFalsy()
 })
 
 test('"" to equal false', () => {
-    expect(tinyhash()).toBeFalsy()
+    expect(totinyhash()).toBeFalsy()
 })
 
 test('"tinyhash" to equal "tRXXS"', () => {
-    expect(tinyhash('tinyhash')).toBe('tRXXS')
+    expect(totinyhash('tinyhash')).toBe('tRXXS')
 })
 
 test('"long string with space and $,@ chars and 10,50 numbers" to equal "lswsaca15nQXRZW"', () => {
-    expect(tinyhash('long string with space and $,@ chars and 10,50 numbers')).toBe('lswsaca15nQXRZW')
+    expect(totinyhash('long string with space and $,@ chars and 10,50 numbers')).toBe('lswsaca15nQXRZW')
 })

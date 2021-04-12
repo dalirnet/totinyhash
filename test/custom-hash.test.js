@@ -1,5 +1,5 @@
-const tinyhash = require('../index')
+const totinyhash = require('../lib/index')
 
-test('"tinyhash" to equal "tWZZT"', () => {
-    expect(tinyhash('tinyhash', ['z', 's', 'x', 'w', 'y', 'r', 'v', 't', 'u', 'q'])).toBe('tWZZT')
+test('"totinyhash" to equal "tWZZT"', () => {
+    expect(totinyhash('tinyhash', ['z', 's', 'x', 'w', 'y', 'r', 'v', 't', 'u', 'q'])).toBe('tWZZT')
 })

@@ -1,6 +1,6 @@
 {
     "name": "totinyhash",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "tiny hash generator",
     "keywords": [
         "tiny",
@@ -17,7 +17,7 @@
     },
     "license": "MIT",
     "author": "AmirRezaDalir",
-    "main": "index.js",
+    "main": "lib/index.js",
     "scripts": {
         "dev": "webpack --config webpack.js --env development",
         "build": "webpack --config webpack.js --env production",
